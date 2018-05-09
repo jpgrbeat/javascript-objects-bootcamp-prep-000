@@ -1,9 +1,9 @@
 var playlist = {"Ben Folds" : "Still Fighting It"};
 
-function updatePlaylist(obj, artist, song){
-  obj[key] = song;
+function updatePlaylist(playlist, artist, song){
+  playlist[key] = song;
   
-  return obj;
+  return playlist;
 }
 function removeFromPlaylist(artist, song){
   
