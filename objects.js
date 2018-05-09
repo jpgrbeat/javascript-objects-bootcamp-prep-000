@@ -1,7 +1,7 @@
 var playlist = {"Ben Folds" : "Still Fighting It"};
 
 function updatePlaylist(playlist, artist, song){
-  playlist[key] = song;
+  playlist[artist] = song;
   
   return playlist;
 }
